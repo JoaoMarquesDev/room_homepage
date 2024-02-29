@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+main {
+    display: flex;   
+    height: 90vh;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 7%;
+    color: white;
+    cursor: pointer;
+}
+
+header ul :nth-child(1) {
+    /* font-weight: bold;    */
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+header ul li:hover {
+    border-bottom: 1px solid white;
+    
+}
+
+.image-room {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#img-room  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
+    /* object-fit: cover; */
+}
+
+#img-room2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
+    visibility: hidden;
+    /* object-fit: cover; */
+}
+
+#img-room3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
+    visibility: hidden;
+    /* object-fit: cover; */
+}
+
+.description-room {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.description-room h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.description-room p {
+    color: hsl(0, 0%, 63%); 
+    line-height: 20px;
+}
+
+.description-room a { 
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+    letter-spacing: 10px;
+    font-weight: 600;
+}
+
+.description-room a:hover {
+        color: hsl(0, 0%, 63%);
+}
+
+button {
+    background-color: black;
+    height: 60px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    /* position: absolute; */
+}
+
+.btns {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: -100px;
+}
+
+.back:hover {
+    background-color: hsl(0, 0%, 63%);
+}
+
+.next:hover {
+    background-color: hsl(0, 0%, 63%);
+}
+
+footer {
+    display: flex;
+    
+}
+
+.about {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    /* margin-right: 20px; */
+    padding-right: 20px;
+    line-height: 20px;
+    position: relative;
+}
+
+.about h4 {
+    letter-spacing: 7px;
+    margin-bottom: 20px;
+}
